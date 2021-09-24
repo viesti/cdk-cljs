@@ -1,0 +1,5 @@
+{:source-paths ["src"]
+ :builds
+ {:app {:target :node-script
+        :main iac.demo/main
+        :output-to "out/main.js"}}}
